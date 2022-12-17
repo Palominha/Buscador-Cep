@@ -1,0 +1,23 @@
+:root{
+  --vermelho:#C21A00;
+  --vermelinho:#b4665a;
+  --vinho:#450900;
+  --vemelho-claro:#CC503D;
+  --vinho-escuro:#421A14;
+  --vinho-claro:#8F1300;
+  --branco:#eeb2b2;
+  --branquinho:#eebcbc;
+  --preto:#0000;
+  --grey:#212121;
+  --grey1:#303030;
+  --grey2:#424242;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
