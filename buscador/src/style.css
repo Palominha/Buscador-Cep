@@ -1,0 +1,109 @@
+.custom-shape-divider-top-1671316892 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1671316892 svg {
+    position: relative;
+    display: block;
+    width: calc(135% + 1.3px);
+    height: 240px;
+}
+
+.custom-shape-divider-top-1671316892 .shape-fill {
+    fill:var(--vinho);
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(var(--branco), var(--braquinho));
+}   
+
+.container .title{
+    color: var(--vinho);
+    font-size: 45px;
+    font-weight: 600;
+    animation: flipTitle 2s;
+    margin-top: 150px;
+}
+
+.container .title span{
+    color: var(--vermelho);
+    font-weight: 700;
+}
+
+@keyframes flipTitle {
+    from{
+        transform: rotateX(90deg);
+    }to{
+        transform: rotateX(0deg);
+    }
+}
+
+.container .containerinput{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: var(--vermelho);
+    padding: 10px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+}
+
+.container .containerinput input{
+    background: transparent;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    color: var(--branquinho);
+    margin-right: 8px;
+}
+
+.container .containerinput input::placeholder{
+    color:var(--branquinho);
+}
+
+.container .containerinput .buttoninput{
+    background-color: transparent;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.container .containerinput .buttoninput:hover{
+    transform: scale(1.3);
+}
+
+.container .main{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: var(--vinho);
+    color: #ffffff;
+    width: 500px;
+    border-radius: 8px;
+}
+
+.container .main h2{
+    margin: 16px 0;
+    font-size: 30px;
+}
+
+.container .main span{
+    margin-bottom: 16px;
+    font-weight: bold;
+}
